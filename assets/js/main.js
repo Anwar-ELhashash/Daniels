@@ -3,7 +3,7 @@ let link = document.querySelectorAll(".navbar-nav .nav-link"); // ul > li
 let navLogo = document.getElementById("navLogo"); // nav logo
 let navIcon = document.getElementById("navbar-toggler"); // nav icon
 window.onscroll = function () {
-  if (window.scrollY >= 550) {
+  if (window.scrollY >= window.innerHeight) {
     nav.style.cssText = `
     position: fixed;
     background-color: #fff;
